@@ -1,0 +1,24 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mac/Desktop/42-project/my_push_swap'
+gcc -ggdb    -c -o push_swap.o push_swap.c
+gcc -ggdb    -c -o ft_atoi.o ft_atoi.c
+gcc -ggdb    -c -o list_functions.o list_functions.c
+gcc -ggdb    -c -o operations.o operations.c
+ 
+gcc -ggdb    -c -o validation.o validation.c
+gcc -ggdb    -c -o quick_sort.o quick_sort.c
+gcc -ggdb    -c -o sort.o sort.c
+gcc -ggdb    -c -o ft_split.o ft_split.c
+gcc -ggdb    -c -o split_helper_functions.o split_helper_functions.c
+gcc -ggdb    -c -o helper_functions.o helper_functions.c
+gcc -ggdb    -c -o push_a_to_b.o push_a_to_b.c
+gcc -ggdb    -c -o push_b_to_a.o push_b_to_a.c
+gcc -ggdb    -c -o simul_operations.o simul_operations.c
+gcc -ggdb    -c -o sort_helper_functions.o sort_helper_functions.c
+gcc -ggdb    -c -o split_join.o split_join.c
+gcc -ggdb    -c -o sort2.o sort2.c
+ 
+gcc -ggdb    -c -o sort_4_nums.o sort_4_nums.c
+gcc -ggdb -Wall -Werror -Wextra push_swap.o ft_atoi.o list_functions.o operations.o validation.o quick_sort.o sort.o ft_split.o split_helper_functions.o helper_functions.o push_a_to_b.o push_b_to_a.o simul_operations.o sort_helper_functions.o split_join.o sort2.o sort_4_nums.o -o push_swap 
+make: Leaving directory `/Users/mac/Desktop/42-project/my_push_swap'
+ 
