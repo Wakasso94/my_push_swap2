@@ -10,14 +10,18 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `push_swap.o', needed by `push_swap'.  Stop.
 
 
-# Make data base, printed on Wed Jun  1 12:17:53 2022
+# Make data base, printed on Wed Jun  8 10:15:48 2022
 
 # Variables
 
+# environment
+VSCODE_GIT_ASKPASS_MAIN = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -41,15 +45,17 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/t9/13mvjs3n10l5mx6x47rj4b5h0000gn/T/vscode-ipc-4c0f9b8f-c649-43ed-8499-c146619f5200.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/t9/13mvjs3n10l5mx6x47rj4b5h0000gn/T/vscode-ipc-08912116-451e-44b5-8889-bf95d8345b1e.sock
 # environment
-VSCODE_CWD = /
+VSCODE_CWD = /Users/mac/Desktop/42-project
 # makefile (from `Makefile', line 36)
 BNS_NAME = checker
 # environment
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
+PATH = /Users/mac/.volta/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Users/mac/Developer/flutter/bin:/Users/mac/Documents/42-ValgrindContainer
 # environment
-LaunchInstanceID = 22633A96-88DF-4E29-B27F-E51872888F87
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+LaunchInstanceID = DC0AE178-02B9-43EA-8476-C0F7810603A8
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -57,7 +63,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.96AQq81CLZ/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.AWEoK8u7la/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -71,9 +77,12 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
+ 
 HOME = /Users/mac
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/mac/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
@@ -81,11 +90,17 @@ LOGNAME = mac
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
+ZSH = /Users/mac/.oh-my-zsh
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
+MAKELEVEL := 0
+# environment
 XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -93,7 +108,9 @@ MAKECMDGOALS := all
 # makefile (from `Makefile', line 13)
 SRCS = push_swap.c ft_atoi.c list_functions.c operations.c validation.c quick_sort.c sort.c ft_split.c split_helper_functions.c helper_functions.c push_a_to_b.c push_b_to_a.c simul_operations.c sort_helper_functions.c split_join.c sort2.c  sort_4_nums.c
 # environment
-SHLVL = 1
+SHLVL = 3
+# environment
+VOLTA_HOME = /Users/mac/.volta
 # makefile (from `Makefile', line 28)
 BNS_OBJS = $(BNS_SRCS:.c=.o)
 # makefile (from `Makefile', line 30)
@@ -108,10 +125,16 @@ USER = mac
 .DEFAULT_GOAL := all
 # makefile (from `Makefile', line 34)
 NAME = push_swap
+# environment
+LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# environment
+TERM_PROGRAM = vscode
 # default
 .VARIABLES := 
 # environment
@@ -120,6 +143,8 @@ TMPDIR = /var/folders/t9/13mvjs3n10l5mx6x47rj4b5h0000gn/T/
 *F = $(notdir $*)
 # environment
 VSCODE_IPC_HOOK = /Users/mac/Library/Application Support/Code/1.67.2-main.sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = /Applications/Visual Studio Code.app/Contents/MacOS/Electron
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -127,7 +152,9 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.12898362989.12898362995
+TERM_PROGRAM_VERSION = 1.67.2
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12898362989.12898362995.72FE85CE-17BD-476D-8D2B-715044CD371F
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -136,10 +163,14 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.12898362989.12898362995
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
 COMMAND_MODE = unix2003
+# environment
+GIT_ASKPASS = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
+# environment
+PAGER = less
 # environment
 LC_ALL = C
 # environment
@@ -153,13 +184,15 @@ BNS_SRCS = checker.c ft_atoi.c list_functions.c operations.c validation.c quick_
 # default
 .INCLUDE_DIRS = /usr/local/include
 # environment
-MAKELEVEL := 0
+VSCODE_GIT_IPC_HANDLE = /var/folders/t9/13mvjs3n10l5mx6x47rj4b5h0000gn/T/vscode-git-612a018660.sock
 # environment
 LANG = C
 # environment
-VSCODE_PID = 426
+TERM = xterm-256color
+# environment
+VSCODE_PID = 429
 # variable set hash-table stats:
-# Load=72/1024=7%, Rehash=0, Collisions=5/104=5%
+# Load=88/1024=9%, Rehash=0, Collisions=7/120=6%
 
 # Pattern-specific Variable Values
 
@@ -167,9 +200,9 @@ VSCODE_PID = 426
 
 # Directories
 
-# . (device 16777220, inode 12898739306): 25 files, no impossibilities.
+# . (device 16777220, inode 12898739306): 26 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 26 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -180,6 +213,7 @@ VSCODE_PID = 426
 # Not a target:
 sort_4_nums.o:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -318,7 +352,6 @@ validation.o:
 operations.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -388,6 +421,6 @@ quick_sort.o:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Jun  1 12:17:53 2022
+# Finished Make data base on Wed Jun  8 10:15:48 2022
 
  
